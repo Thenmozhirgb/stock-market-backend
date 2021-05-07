@@ -2,7 +2,7 @@ let express = require('express');
 let mongoose = require('mongoose');
 let cors = require('cors');
 let bodyParser = require('body-parser');
-let dbConfig = require('./database/db');
+let dbConfig = require('./routes/database/db');
 
 // Express Route
 const userRoute = require('./routes/user.route')
